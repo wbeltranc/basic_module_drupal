@@ -1,0 +1,16 @@
+<?php
+/**
+ * @param $existing
+ * @param $type
+ * @param $theme
+ * @param $path
+ * @return string[][][]
+ */
+function hello_world_theme($existing, $type, $theme, $path)
+{
+  return array(
+    'hello_world' => array(
+      'variables' => array('title' => '')
+    )
+  );
+}
